@@ -1,4 +1,3 @@
-# README
 
 ## Informasi Mahasiswa
 - **Nama**: Roofiif Alria Dzakwan
