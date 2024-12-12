@@ -1,5 +1,5 @@
 
-## Informasi Mahasiswa
+## Data diri
 - **Nama**: Roofiif Alria Dzakwan
 - **NRP**: 5025221012
 - **Kelas**: PWEB E
