@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Sederhana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-content {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .blog-posts {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+            margin-right: 20px;
+        }
+
+        .sidebar {
+            flex: 30%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 20px;
+        }
+
+        .post {
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Blog Saya</h1>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Artikel</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="container main-content">
+        <div class="blog-posts">
+            <div class="post">
+                <h2>Judul Artikel Pertama</h2>
+                <p>Ini adalah paragraf pertama dari artikel blog. Anda dapat menambahkan konten blog Anda di sini.</p>
+            </div>
+            <div class="post">
+                <h2>Judul Artikel Kedua</h2>
+                <p>Ini adalah paragraf kedua dari artikel blog. Tambahkan informasi dan cerita menarik Anda.</p>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h3>Tentang Saya</h3>
+            <p>Perkenalkan, saya adalah penulis blog yang senang berbagi informasi.</p>
+            
+            <h3>Kategori</h3>
+            <ul>
+                <li>Teknologi</li>
+                <li>Gaya Hidup</li>
+                <li>Pendidikan</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Blog Saya. Hak Cipta Dilindungi.</p>
+    </footer>
+</body>
+</html>
